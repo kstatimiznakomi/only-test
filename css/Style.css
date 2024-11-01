@@ -1,0 +1,136 @@
+form {
+    padding: 30px;
+    display: grid;
+    gap: 10px;
+    max-width: 600px;
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+}
+
+p{
+    font-family: Inter;
+    margin-bottom: 0 !important;
+}
+
+input:focus{
+    outline-width: 0;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+
+.page__title{
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+}
+
+.auth__input{
+    width: 350px;
+}
+
+input {
+    font-family: Inter;
+    display: grid;
+    padding: 14px;
+    font-size: large;
+    border: 1px solid rgb(169, 169, 169) !important;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.btn{
+    padding: 14px;
+    border: 1px solid #dddddd;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(199, 199, 199) !important;
+}
+
+.error__message{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+hr{
+    margin: 5px auto;
+    opacity: 0.15;
+}
+
+.profile__point {
+    color: gray;
+}
+
+.profile__data{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.profile__data input {
+    font-size: medium;
+    border: 1px solid #dddddd !important;
+}
+
+.profile__data input:focus {
+    font-size: medium;
+    border: 1px solid rgb(169, 169, 169) !important
+}
+
+.profile{
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+    min-width: 500px;
+    margin-bottom: 10px;
+}
+
+button {
+    border: 1px solid #dddddd;
+    padding: 14px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+button:focus{
+    border: 1px solid rgb(169, 169, 169) !important;
+    outline-width: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+    border: 1px solid rgb(199, 199, 199) !important;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.action {
+    border: 1px solid #dddddd;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.action:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(169, 169, 169) !important;
+    color: black;
+}
